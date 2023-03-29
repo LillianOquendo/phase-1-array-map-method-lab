@@ -23,7 +23,7 @@ const titleCased = () => {
     let words = sentence.split(" ");
       let newWords = words.map((word) => {
       let newArray1 = word.charAt(0).toUpperCase();
-      let newArray2 = word.slice(1).toLowerCase();
+      let newArray2 = word.slice(1)//.toLowerCase();
 
       let finalArray = newArray1 + newArray2;
     
